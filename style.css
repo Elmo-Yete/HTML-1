@@ -1,0 +1,57 @@
+/*comentario en css
+ul --- lista no ordenada
+ol--- lista ordenada
+p
+div
+a
+table
+SELECTORES
+id
+class
+atributos / widh="100px"
+tags / p, a
+
+/* LLAMAR POR ID*/
+
+.contenedor {
+    color: green;
+}
+
+.contenedor h1 {
+    color: red;
+    font-size: 40px;
+}
+
+.contenedor-p{
+    color:blue;
+}
+
+
+.ej#t1 #t1 {       
+  color: cyan;
+}
+/* LLAMAR POR CLASE */
+.t2{
+    color: red;
+}
+/* LLAMAR POR ATRIBUTOS */ 
+
+[samuel] {
+    color: yellow;
+}
+
+[samuel="otronombre"] {
+    color: aquamarine;
+}
+/* LLAMAR POR TAGS */ 
+.ej h5 {
+    color: violet;
+}
+/* PINTAR PARRAFOS*/
+p {
+    color: brown;
+}
+/* PINTAR BORDES A TODO */ 
+* {
+    border: solid 4px whitesmoke;
+}
