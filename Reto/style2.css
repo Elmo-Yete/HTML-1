@@ -1,0 +1,38 @@
+html,
+body {
+    background:#d5e1ef;
+    box-sizing:border-box;
+    height: 100%;
+    width: 100%;
+    padding:50px;
+    margin: 0px;
+    text-align: center;
+}
+
+.card-container {
+    background: white;
+    box-shadow:0px 6px 20px black;
+    border-radius:20px;
+    display:inline-block;
+    padding:20px;
+    overflow:hidden;
+}
+
+.card-container .qr-container {
+    background: #2f7dfa;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-container .qr-container img{
+    max-width: 100%;
+}
+
+.card-container h1{
+    font-size: 50px;
+}
+
+.card-container p {
+    font-size: 50px;
+}
