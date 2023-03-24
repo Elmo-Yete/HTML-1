@@ -16,7 +16,7 @@ body {
     display:inline-block;
     padding:20px;
     overflow:hidden;
-    max-width:100%;
+    max-width:500px;
 }
 
 .card-container .qr-container {             /*  este es el contenedor azul*/
