@@ -14,13 +14,13 @@ body {
     border: solid 10px black;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: space-around;
 }
 
 
 .flex-container div {
     border: dashed 1px red;
     flex: 1 1 auto;
-
+    flex-direction: column;
 }
 
