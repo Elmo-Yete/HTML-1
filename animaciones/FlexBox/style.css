@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+    background: honeydew;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.flex-container {
+    border: solid 10px black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.flex-container div {
+    border: dashed 1px red;
+    flex: 1 1 auto;
+
+}
+
